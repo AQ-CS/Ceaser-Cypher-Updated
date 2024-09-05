@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" class="style">
+</head>
+<body>
+    <h1>Ceaser Cypher</h1>
+    <div class="container">
+        <div class="circles">
+            <div class="circle1"> 
+                <img src="images/cypher outer-modified.png">
+                <div class="circle3"></div>
+                <div class="circle2">
+                    <img id="image" class="inner" src="images/cypher inner-modified.png">
+                </div>
+            </div>
+
+            
+        </div>
+
+        <div class="textBox">
+            <div class="display">  
+                <h2 id="angle-info" >Number of angles changed: </h2>
+                <input class="value" type="number" id="angle-input" value="0" min="-1" max="26">
+            </div>
+            <input class="inputField" type="text" id="user-input" placeholder="Type here to decypher" style="font-size: 20px;">
+            <div class="answer" data-placeholder="Answer will appear here..."></div>
+            <button class="But1">Cypher</button>
+            <button class="But2">Decypher</button>
+        </div>
+    </div>
+    
+    
+    
+    <script src="./script.js"></script>
+</body>
+</html>
